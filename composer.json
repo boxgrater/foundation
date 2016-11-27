@@ -1,0 +1,27 @@
+{
+    "name": "boxgrater/foundation",
+    "description": "BoxGrater Foundation",
+    "type": "plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BoxGrater",
+            "email": "boxgrater@protonmail.com"
+        }
+    ],
+    "support": {
+        "email": "boxgrater@protonmail.com",
+        "source": "https://github.com/boxgrater/foundation"
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "illuminate/routing": "*",
+        "illuminate/database": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BoxGrater\\Foundation\\": "src/"
+        }
+    }
+}
